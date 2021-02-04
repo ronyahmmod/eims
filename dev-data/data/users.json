@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Md. Ali Akhtar",
+        "email": "ali.jdc.eco@gmail.com",
+        "role": "admin",
+        "active": true,
+        "photo": "ali.prin.jpg",
+        "password": "da;fknlananfkjanflanfkajnf#lkfndwr8396rdaf",
+        "passwordResetToken": "zlknadlkfnalfnalfnadlfadkfnadl",
+        "passwordChangedAt": "12-05-2020",
+        "passwordResetExpires": "13-09-2021"
+    }
+]

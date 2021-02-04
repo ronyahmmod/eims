@@ -1,0 +1,7 @@
+[
+    {
+        "student": "student_id",
+        "transactions": "transaction_id",
+        "verified": true
+    }
+]

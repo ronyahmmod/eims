@@ -1,0 +1,42 @@
+[
+    {
+        "compulsary": ["bangla", "english", "ict"],
+        "optionals": ["physics", "chemistry", "biology"],
+        "4thSubject": "mathemetics",
+        "subjectChangeAt":"22-02-2000",
+        "changedSubjects": {
+            "optionals": [],
+            "4thSubject": ""
+        }
+    },
+    {
+        "compulsary": ["bangla", "english", "ict"],
+        "optionals": ["physics", "chemistry", "biology"],
+        "4thSubject": "mathemetics",
+        "subjectChangeAt":"22-02-2000",
+        "changedSubjects": {
+            "optionals": [],
+            "4thSubject": ""
+        }
+    },
+    {
+        "compulsary": ["bangla", "english", "ict"],
+        "optionals": ["physics", "chemistry", "biology"],
+        "4thSubject": "mathemetics",
+        "subjectChangeAt":"22-02-2000",
+        "changedSubjects": {
+            "optionals": [],
+            "4thSubject": ""
+        }
+    },
+    {
+        "compulsary": ["bangla", "english", "ict"],
+        "optionals": ["physics", "chemistry", "biology"],
+        "4thSubject": "mathemetics",
+        "subjectChangeAt":"22-02-2000",
+        "changedSubjects": {
+            "optionals": [],
+            "4thSubject": ""
+        }
+    }
+]

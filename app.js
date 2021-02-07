@@ -14,6 +14,7 @@ const express = require('express');
 const AppError = require('./utils/appError');
 const catchAsync = require('./utils/catchAsync');
 const globalErrorHandler = require('./controllers/errorController');
+const viewRouter = require('./routes/viewRoutes');
 
 // Start express app
 const app = express();
@@ -73,6 +74,10 @@ app.use((req, res, next) => {
   // console.log(req.cookies);
   next();
 });
+
+// ROUTES
+app.use('/', viewRouter);
+
 app.use(globalErrorHandler);
 
 // alias all routes. If there is no match on any routes

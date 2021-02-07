@@ -15,6 +15,7 @@ const AppError = require('./utils/appError');
 const catchAsync = require('./utils/catchAsync');
 const globalErrorHandler = require('./controllers/errorController');
 const viewRouter = require('./routes/viewRoutes');
+const userRouter = require('./routes/userRoutes');
 
 // Start express app
 const app = express();
@@ -77,6 +78,7 @@ app.use((req, res, next) => {
 
 // ROUTES
 app.use('/', viewRouter);
+app.use('/api/v1/users', userRouter);
 
 app.use(globalErrorHandler);
 

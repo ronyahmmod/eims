@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const cors = require('cors');
 const express = require('express');
-
+const moment = require('moment');
 const AppError = require('./utils/appError');
 const catchAsync = require('./utils/catchAsync');
 const globalErrorHandler = require('./controllers/errorController');
@@ -73,6 +73,7 @@ app.use(compression());
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   // console.log(req.cookies);
+  // console.log(moment().format());
   next();
 });
 

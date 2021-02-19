@@ -10,7 +10,6 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const cors = require('cors');
 const express = require('express');
-const moment = require('moment');
 const AppError = require('./utils/appError');
 const catchAsync = require('./utils/catchAsync');
 const globalErrorHandler = require('./controllers/errorController');
